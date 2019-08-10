@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cynix.ashwin.aodnotify.MainActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/startbt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Service"/>
+
+    <Button
+        android:id="@+id/notipermbt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NotiPermission"/>
+
+    <Button
+        android:id="@+id/startaodbt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start AOD"/>
+
+</LinearLayout>
