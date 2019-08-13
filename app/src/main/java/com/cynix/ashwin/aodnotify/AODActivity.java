@@ -33,7 +33,7 @@ public class AODActivity extends AppCompatActivity
 
     Handler handler = new Handler();
     Runnable r;
-    int burnProtectionDelay = 60000;
+    int burnProtectionDelay = 240000;
 
     public static NotiRecyclerAdapter adapter;
     RecyclerView notificationIconRecyclerView;
